@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.login-con {
+  min-height: 100vh;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+}
+.card-con {
+  height: 350px;
+  width: 350px;
+  background-color: #272727;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  height: 30px;
+  margin: 10px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+.input-con {
+  width: 280px;
+  background-color: transparent;
+  border: 1.5px solid #64748b;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px;
+}
+input {
+  width: 280px;
+  background-color: transparent;
+  border: 1.5px solid #64748b;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+  color: #fff;
+  margin: 5px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px;
+}
+.login-btn,
+.logout-btn,
+.findJobs-btn,
+.retry-btn {
+  background-color: #6366f1;
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  margin-top: 20px;
+  font-weight: bold;
+}
